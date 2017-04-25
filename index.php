@@ -14,7 +14,7 @@
         <link href="css/custom.css" rel="stylesheet">
         <script src="js/respond.js"></script>
         <link href="css/style.css" rel="stylesheet">
-        <link rel="icon" href="img/logo.png" type="image/gif">
+        <link rel="stylesheet" type="text/css" href="css/style_login.css" />
         <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -23,10 +23,13 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <title>ชุมชนสัมพันธ์โครงการ</title>
+
+	   
+	    <title>ชุมชนสัมพันธ์โครงการ</title>
     </head>
 
     <body>
+	
     <header class="row">
 		<div class="container">
 			<h1>อชค</h1> <img src="img/logo.png" alt="commu" style="width:80px; height:80px"/>
@@ -51,13 +54,38 @@
 						<li>
 							<a href="#">เกี่ยวกับ อชค.</a></li>
 						<li>
-							<a href="#"> <span class="glyphicon glyphicon-log-in" ></span>  เข้าสู่ระบบ</a></li>
+							<a href="#loginmodal" id="modaltrigger"> <span class="glyphicon glyphicon-log-in" ></span>  เข้าสู่ระบบ</a></li>
 					</ul>
 				</div>
+				
 			</nav> <!--nav-->
 		</div> <!-- end container -->
 	</header>
 
+	<div id="loginmodal" style="display:none; width:500px; height:300px;" >
+						<center><h1> Admin Login </h1></center>
+						<form  name="loginform"  method="post" onSubmit="return check_form2()" enctype="multipart/form-data" action="system_management/check_login.php" ;> 
+							<label> Username  </label>
+							<input type="text" name="txt_username" id="txt_username" class="txtfield" tabindex="1"  placeholder="Username" />
+							<label> Password  </label>
+							<input type="password" name="txt_password" id="txt_password" class="txtfield" tabindex="2" placeholder="Password" />
+							<center>
+							<input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Log In" tabindex="3">
+							</center>
+						</form>
+        		</div>
+				<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  			<script type="text/javascript" charset="utf-8" src="js/jquery.leanModal.min.js"></script>
+				<script type="text/javascript">
+        		$(function()
+				{
+					$('#loginform').submit(function(e){
+							return false;
+					});
+					$('#modaltrigger').leanModal({top:110, overlay:0.45, closeButton: ".hidemodel"});
+				});
+				
+        		</script>
 
 	<!--################################################-->
 	<div id="heroArea" class="clearfix">
