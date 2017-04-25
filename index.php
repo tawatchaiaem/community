@@ -29,7 +29,7 @@
     <body>
     <header class="row">
 		<div class="container">
-			<h1>อชค</h1> <img src="_images/logo.jpg" alt="" />
+			<h1>อชค</h1> <img src="img/logo.png" alt="commu" style="width:80px; height:80px"/>
 
 			<nav class="navbar pull-right">
 				<div class="navbar-header">
@@ -43,15 +43,15 @@
 				<div class="collapse navbar-collapse" id="collapse">
 					<ul class="nav navbar-nav">
 						<li class="active">
-							<a href="#">Home</a></li>
+							<a href="#">หน้าหลัก</a></li>
 						<li>
-							<a href="#">Portfolio</a></li>
+							<a href="#">ข่าวสาร</a></li>
 						<li>
-							<a href="#">Blog</a></li>
+							<a href="#">กิจกรรม</a></li>
 						<li>
-							<a href="#">Contact</a></li>
+							<a href="#">เกี่ยวกับ อชค.</a></li>
 						<li>
-							<a href="#">About</a></li>
+							<a href="#"> <span class="glyphicon glyphicon-log-in" ></span>  เข้าสู่ระบบ</a></li>
 					</ul>
 				</div>
 			</nav> <!--nav-->
@@ -69,29 +69,30 @@
 					<li data-target="#myCarousel" data-slide-to="2"></li>
 				</ol>
 				<section class="carousel-inner">
-					<div class="active item"><img src="images/biliki-12grids_07.jpg" alt="" />
+					<div class="active item"><img src="images/img-commu1.png" alt="" />
 						<div class="carousel-caption">
-							<p>some text heresome text heresome text heresome text heresome text heresome text heresome text heresome text heresome text here</p></div></div>
-					<div class="item"><img src="images/biliki-12grids_07.jpg" alt="" />
+							<p></p></div></div>
+					<div class="item"><img src="images/img-commu2.png" alt="" />
 						<div class="carousel-caption">
-							<p>some
-								<a href=""> text</a> here</p></div></div>
+							<p><a href="#"> </a></p></div></div>
 					<div class="item">
-						<a href=""><img src="images/biliki-12grids_07.jpg" alt="" /></a></div>
+						<a href=""><img src="images/img-commu3.png" alt="" /></a></div>
 				</section>
 				<a href="#myCarousel" class="left carousel-control glyphicon glyphicon-chevron-left" data-slide="prev"  ></a>
 				<a href="#myCarousel" class="right carousel-control glyphicon glyphicon-chevron-right" data-slide="next" ></a>
 			</div>
 
 
-			<h3>Set del amet puido cerar una puerta set del amet</h3>
-			<h4>Del amet set del amet puido cerar una</h4>
-			<p>Del amet puido cerar una puerta set del amet puido cerar una puertaset del amet puido cerar una puerta set del amet set del amet puido cerar una set del amet puido cerar una</p>
-			<a href="#" class="btn">try it now</a>
+			<h3>หน่วยงานชุมชนสัมพันธ์โครงการ</h3>
+			<h4>Project Community Relations Division</h4>
+			<p style="font-size:16px">ตั้งขึ้นเพื่อทําหน้าที่เป็นหน่วยงานในการรวบรวมวางแผนกลยุทธ์และแผนปฏิบัติการชุมชนร่วมกับสายงานต่าง ๆ เป็นภาพรวมของ กฟผ. เป็นหน่วยงานหลักในการประสานงานเสริมสร้างความเข้าใจให้กับชุมชน สนับสนุนการแก้ไขปัญหาเพื่อลดความขัดแย้งด้านมวลชนในพื้นที่เป้าหมายพัฒนาแหล่งผลิตไฟฟ้า , ปฏิบัติการโรงไฟฟ้า และระบบสายส่งร่วมกับหน่วยงานที่เกี่ยวข้องในทุกๆ ขั้นตอนของการดําเนินงาน</p>
+			<a href="#" class="btn" style="font-size:20px">รายละเอียดเพิ่มเติม</a>
 		</div>
 	</div>
+
 	<!--################################################-->
-	<section class="container" id="four_cols">
+    <section class="container" id="four_cols">
+        <h3 align="center">ข่าวประชาสัมพันธ์ประจำวัน</h3>
 		<div class="col-md-3 col-sm-6 col-xs-12">
 			<img src="_images/b_icon.jpg" alt="" />
 			<h2>Automn</h2>
@@ -117,6 +118,7 @@
 			<a href="#" class="btn btn-default">Read more</a>
 		</div>
 	</section>
+
 	<!--################################################-->
 	<section id="developpers" class="container">
 		<h3>About the developpers</h3>
@@ -167,30 +169,7 @@
 
 
 	</section>
-	<!--################################################-->
-	<section id="clients" class="container clearfix">
-		<h3>Our clients</h3>
-		<hr />
-		<div class="col-md-2 col-sm-4 col-xs-12">
-			<img src="images/aClient.png" alt="" />
-		</div
-		<div class="col-md-2 col-sm-4 col-xs-12">
-			<img src="images/aClient.png" alt="">
-		</div>
-		<div class="col-md-2 col-sm-4 col-xs-12">
-			<img src="images/aClient.png" alt="">
-		</div>
-		<div class="col-md-2 col-sm-4 col-xs-12">
-			<img src="images/aClient.png" alt="">
-		</div>
-		<div class="col-md-2 col-sm-4 col-xs-12">
-			<img src="images/aClient.png" alt="">
-		</div>
-		<div class="col-md-2 col-sm-4 col-xs-12">
-			<img src="images/aClient.png" alt="">
-
-		</div>
-	</section>
+	
 	<!--################################################-->
 	<footer class="row">
 		<div class="container">
@@ -212,14 +191,14 @@
 				</div>
 			</div>
 			<div  class="col-md-3 col-sm-6 col-xs-12">
-				<h3>Contact us</h3>
-				<p> <img src="_images/biliki-12grids_03.png" alt="" /> admin@ws-templates.com</p>
-				<p> <img src="_images/biliki-12grids_06.png" alt="" /> 1234 somewhere on the earth,Country,myLovelyCity</p>
-				<p> <img src="_images/biliki-12grids_10.png" alt="" /> 00-000-0000</p>
+				<h3>ติดต่อหน่วยงาน</h3>
+				<p> <img src="_images/biliki-12grids_03.png" alt="" /> projectcommunity-r@egat.co.th</p>
+				<p> <img src="_images/biliki-12grids_06.png" alt="" /> ฝ่ายชุมชนสัมพันธ์โครงการ การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย 53 ม.2 ถ.จรัญสนิทวงค์ ต.บางกรวย อ.บางกรวย จ.นนทบุรี 11130</p>
+				<p> <img src="_images/biliki-12grids_10.png" alt="" /> 0-2436-3455 </p>
 				<p class="social_icons">
-					<a href=""><img src="_images/f_twitter.jpg" alt=""></a>
-					<a href=""><img src="_images/f_facebook.jpg" alt=""></a>
-					<a href=""><img src="_images/f_gplus.jpg" alt=""></a></p>
+					<a href="https://twitter.com/egatcommunity" target="_blank"><img src="_images/f_twitter.jpg" alt=""></a>
+					<a href="https://www.facebook.com/egatcommunitydep/" target="_blank"><img src="_images/f_facebook.jpg" alt=""></a>
+					<a href="https://www.youtube.com/user/egatcommunitydep" target="_blank"><img src="_images/f_youtube.png" alt=""></a></p>
 			</div>
 			<div  class="col-md-3 col-sm-6 col-xs-12">
 				<h3>Newsletter</h3>
@@ -233,11 +212,10 @@
 			<hr/>
 			<div>
 				<span class="container">
-					Copyright 2013 by
-					<b>Biliki</b>, all rights reserved
-					<span class="pull-right">Design by :
-						<a href="http://ws-templates.com">ws-templates.com</a></span>
-				</span></div>
+					Copyright 2016 by
+					<b>Project Community Relations Devision</b>, all rights reserved
+					<!--<span class="pull-right">Design by :<a href="http://ws-templates.com">ws-templates.com</a></span></span>-->
+            </div>
 		</div></footer>
 	<!--################################################-->
 
